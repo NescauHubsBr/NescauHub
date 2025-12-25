@@ -1,10 +1,10 @@
 -- 🍫 NESCAU HUB Loader
--- Version 1.5 | Game: 99 Nights
+-- Version 1.6 | Game: 99 Nights
 
 if getgenv().NescauHubLoaded then return end
 getgenv().NescauHubLoaded = true
 
-local BASE_URL = "https://raw.githubusercontent.com/SEUUSUARIO/NescauHub/main/"
+local BASE_URL = "https://raw.githubusercontent.com/NescauHubsBr/NescauHub/main/"
 
 local function Load(path)
     return loadstring(game:HttpGet(BASE_URL .. path))()
